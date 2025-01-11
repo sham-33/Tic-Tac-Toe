@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #eb9834;
   margin: 0;
   height: 100vh;
   display: flex;
@@ -10,19 +10,18 @@ body {
 }
 
 #title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 6em;
-  margin: 5% 0 5% 0; 
-  color: #39ff14; 
+  margin: 5% 0 5% 0;
+  color: #39ff14;
   text-shadow: 0 0 5px #39ff14;
 }
 
-
-#sub-title{
-  font-family: 'Press Start 2P', cursive;
+#sub-title {
+  font-family: "Press Start 2P", cursive;
   font-size: 2rem;
-  margin-top:  2%;
-  margin-bottom : 3%;
+  margin-top: 2%;
+  margin-bottom: 3%;
   color: #fb00b0;
 }
 
@@ -30,7 +29,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 1.5rem; 
+  gap: 1.2rem;
   justify-items: center;
   align-items: center;
 }
@@ -42,12 +41,12 @@ body {
 }
 
 .box {
-  height: 13rem; 
-  border-radius:1rem;
-  width: 13rem;  
+  height: 13rem;
+  border-radius: 3rem;
+  width: 13rem;
   background-color: white;
-  font-size: 8rem; 
-  border: 2px solid #011f3f;
+  font-size: 8rem;
+  border: 5px solid #9c9ea1;
   box-shadow: 0 0 1rem rgba(170, 201, 232, 0.4);
   display: flex;
   justify-content: center;
@@ -59,17 +58,17 @@ body {
 
 .reset {
   background-color: transparent;
-  border: 4px solid #ffc107; 
+  border: 4px solid #ffffff;
   margin: 3rem;
-  color: #ffc107; 
-  padding: 0.2rem 2.5rem; 
-  font-size: 4rem; 
-  font-weight: 400; 
-  border-radius: 0.5rem; 
-  cursor: pointer; 
+  color: #ffffff;
+  padding: 0.2rem 2.5rem;
+  font-size: 4rem;
+  font-weight: 400;
+  border-radius: 2rem;
+  cursor: pointer;
 }
 
 .reset:hover {
-  background-color: #ffc003; 
-  color: black 
+  background-color: #ffc003;
+  color: black;
 }
